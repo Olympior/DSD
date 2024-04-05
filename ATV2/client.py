@@ -1,7 +1,7 @@
 import socket
 
 # Configurações do cliente
-HOST = '192.168.0.10'  # Endereço IP do servidor (localhost)
+HOST = '127.0.0.1'  # Endereço IP do servidor (localhost)
 PORT = 12345        # Porta para comunicação
 
 # Inicializa o socket do cliente
