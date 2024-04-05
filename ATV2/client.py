@@ -9,7 +9,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 try:
     nome = input("Digite seu nome: ")  # Solicitação do nome do cliente
-    client_socket.sendto(nome.encode('utf-8'), (HOST, PORT))  # Envio do nome ao servidor
+    client_socket.sendto(nome.encode('utf-8'), (HOST, PORT))
     
     while True:
         letra = input("Digite seu palpite: \n")
