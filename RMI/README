@@ -1,0 +1,7 @@
+Requirements: pip install -r requirements.txt
+
+Para rodar o server em RMI: python -m Pyro5.nameserver
+
+para rodar o server: python server.py
+
+Para rodar o client: python client.py

@@ -1,3 +1,7 @@
-para rodar o projeto, Rode o pip install -r requirements.txt 
+Dependencias: "pip install -r requirements.txt" 
 
-cd \SOAP\node.js e de o comando npm i
+Dependencias node: "cd \SOAP\node.js" e de o comando "npm i"
+
+Rodando server: "python server.py"
+
+Rodando client: "cd \SOAP\node.js" + "node client.js"

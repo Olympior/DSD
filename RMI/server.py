@@ -1,13 +1,12 @@
 import Pyro5.api
 
-#Rodando o servidor de nomes
+#Rodando o servidor
 '''python -m Pyro5.nameserver -n localhost -p 9090'''
 
 # Definindo o objeto remoto
 @Pyro5.api.expose
 class TextProcessor:
     def process_text(self, text):
-        # Exibir a mensagem recebida do cliente no servidor
         print(f"Nick Recebido do client: {text}")
         return f"Olá: {text}"
 
